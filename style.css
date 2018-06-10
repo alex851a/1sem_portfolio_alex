@@ -3,7 +3,6 @@ body {
     background-image: url(images/background2.png);
     background-repeat: no-repeat;
     background-size: auto;
-    z-index: 1;
     margin-right: 7%;
     margin-left: 7%;
 }
@@ -11,7 +10,11 @@ body {
 .wrapper {
     display: flex;
     flex-wrap: wrap;
+}
 
+#forside {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 header,
@@ -22,19 +25,14 @@ a {
     font-size: 1.2em;
 }
 
-#forsidefooter {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    background-color: rgba(255, 255, 255, 0.2);
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-}
-
 
 
 /* Navigation */
+
+#forside nav {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 nav ul {
     display: flex;
