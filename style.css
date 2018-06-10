@@ -12,11 +12,6 @@ body {
     flex-wrap: wrap;
 }
 
-#forside {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 header,
 a {
     color: black;
@@ -29,9 +24,11 @@ a {
 
 /* Navigation */
 
-#forside nav {
-    display: flex;
-    flex-wrap: wrap;
+.forside {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    padding-top: 25%;
 }
 
 nav ul {
